@@ -1,0 +1,31 @@
+Sun Jul 31 16:37:44 CEST 2016 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
+----------------------------------------------------------------
+Sun Jul 31 16:37:44 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0156-4163-a427-ffffa47e9fcc
+sulla directory di database C:\Documents and Settings\User\Documenti\NetBeansProjects\Progetto65085\web\WEB-INF\db\ammdb con caricatore classi sun.misc.Launcher$AppClassLoader@144bcfa 
+Caricato da file:/C:/Programmi/Java/jdk1.8.0_101u/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Programmi\Java\jdk1.8.0_101u\db
+os.name=Windows XP
+os.arch=x86
+os.version=5.1
+derby.system.home=C:\Documents and Settings\User\Documenti\NetBeansProjects\Progetto65085\web\WEB-INF\db
+Programma di caricamento classe database avviato - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Jul 31 16:37:57 CEST 2016:
+Arresto dell'istanza a816c00e-0156-4163-a427-ffffa47e9fcc nella directory del database C:\Documents and Settings\User\Documenti\NetBeansProjects\Progetto65085\web\WEB-INF\db\ammdb con il caricatore di classi sun.misc.Launcher$AppClassLoader@144bcfa 
+Sun Jul 31 16:37:57 CEST 2016 Thread[DRDAConnThread_2,5,main] (DATABASE = ammdb), (DRDAID = {2}), Chiusura del database 'ammdb'.
+----------------------------------------------------------------
+Sun Jul 31 16:38:21 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a65c80ac-0156-4163-a427-ffffa47e9fcc
+sulla directory di database C:\Documents and Settings\User\Documenti\NetBeansProjects\Progetto65085\web\WEB-INF\db\ammdb con caricatore classi sun.misc.Launcher$AppClassLoader@144bcfa 
+Caricato da file:/C:/Programmi/Java/jdk1.8.0_101u/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\Programmi\Java\jdk1.8.0_101u\db
+os.name=Windows XP
+os.arch=x86
+os.version=5.1
+derby.system.home=C:\Documents and Settings\User\Documenti\NetBeansProjects\Progetto65085\web\WEB-INF\db
+Programma di caricamento classe database avviato - derby.database.classpath=''

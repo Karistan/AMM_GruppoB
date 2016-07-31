@@ -1,0 +1,228 @@
+body {
+    background-color: #d8f3f0;
+    color: #4d4a49;
+    font-family: "Segoe UI",Segoe,sans-serif;
+}
+
+h1  {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom:0px;
+}
+
+h2 {
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+
+h3 {
+    font-size:20px;
+    font-style: italic;
+    margin-bottom:0px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin:0px;
+}
+
+a {
+    color:#2d7163;
+    font-style: italic;
+    font-weight: bold;
+}
+a:visited{
+    color: #153531;
+}
+
+a:hover{
+    color: #5d9788;
+}
+
+label {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+}
+ #divdescrizione label{
+    float:left;
+    margin-right: 4.3px;
+}
+
+input {
+    width:150px;
+}
+
+textarea#descrizione{
+    height:4em;
+    width:150px;
+    resize:none;
+}
+
+table tr:nth-child(odd) {
+    background-color: #88bea2;
+}
+
+table tr{
+    background-color: #aed4da;
+}
+
+.column1 {
+    width:250px;
+}
+
+.column2 {
+    width:180px;
+}
+
+.column3 {
+    width:100px;
+}
+
+.column4 {
+    width:80px;
+}
+
+
+.column5{
+    width:80px;
+}
+
+.headertable {
+    background-color: darkgrey;
+    height:1em;
+}
+
+table,td,th {
+    border-style: solid;
+    border-color: grey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    font-style:italic;
+}
+
+tr{
+    height: 100px;
+}
+
+.submitbutton,#submitbutton {
+    padding-left: 114px;
+}
+
+form {
+    width: 300px;
+}
+
+sidebarright{
+    float:right;
+    width:20%;
+}
+
+label{
+    
+}
+
+input{
+    border-color: #101010;
+}
+
+input:focus{
+    background-color: #BBBBBB;
+}
+
+input[type=submit]:focus{
+    background-color:white;
+}
+
+.header{
+   visibility: hidden;
+}
+
+.footer{
+    visibility: hidden;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+   .sidebarright {
+        float: right;
+        width: 20%;
+    }
+    
+    .sidebarleft {
+        position:absolute;
+        
+    }
+    
+    .sidebarleft_wrapper{
+        position: fixed;
+        float:left;
+        width:20%;
+        padding-right:10px;
+    }
+    
+    .content {
+        margin-right: 20%;
+        padding-bottom: 10px;
+        padding-left: 10px;
+     }
+     
+     .columstriple .content{
+         margin-left: 20%;
+         padding-right: 10px;
+     }
+     
+}
+
+@media only screen and (min-width:480px) and (max-width:1024px){
+    
+    .sidebarright {
+        width: 20%;
+        float:right;
+    }
+    
+    .sidebarleft {
+        position:absolute;
+    }
+    
+    .sidebarleft_wrapper{
+        position: fixed;
+        display:inline-block;
+        float:left;
+        width:25%;
+        padding-left:10px;
+    }
+    
+    .content {
+        padding-bottom: 10px;
+        padding-left: 10px;
+     }
+     
+     .columstriple .content{
+         margin-left: 25%;
+         padding-right: 10px;
+     }
+    
+     .sidebarleft ul,.sidebarleft ol{
+        position:relative;
+        left:-30px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    
+    .content {
+        padding-bottom: 10px;
+        padding-left: 10px;
+     }
+     
+     .columstriple .content{
+         padding-right: 10px;
+     }
+}
